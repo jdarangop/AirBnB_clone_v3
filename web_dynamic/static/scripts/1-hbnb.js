@@ -10,10 +10,6 @@ $(function () {
     let keys = Object.keys(dict);
     let result = "";
     for (let item of keys) {
-      /*if (result.length > 24) {
-      } else if (result.length > 19) {
-        result += item.charAt(0) + "...";
-      } else */
       if (result === "") {
         result += item;
       } else {

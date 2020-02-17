@@ -6,7 +6,6 @@ $(function () {
     } else {
       delete dict[$(this).data("name")];
     }
-    console.log(dict);
     let keys = Object.keys(dict);
     let result = "";
     for (let item of keys) {

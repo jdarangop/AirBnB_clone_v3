@@ -20,11 +20,17 @@ $(function () {
         result += ", " + item;
       }
     }
-    $("div.amenities h4").text(result);
-    //$("div.amenities h4").css("margin-right", "70px");
-    //$("div.amenities h4").css("width", "70px");
-    //$("div.amenities h4").text(result).css("max-height", "10px");
-    $("div.amenities").css("width", "300px");
-    $("div.amenities").css("height", "100px");
+    if (result === "") {
+      $("div.amenities h4").html('&nbsp;');
+    } else {
+      $("div.amenities h4").html(result);
+    }
+    $("div.amenities h4").css("height", "length");
+    $("div.amenities h4").css("height", "17px");
+    $("div.amenities h4").css("width", "length");
+    $("div.amenities h4").css("width", "260px");
+    $("div.amenities h4").css("white-space", "nowrap");
+    $("div.amenities h4").css("overflow", "hidden");
+    $("div.amenities h4").css("text-overflow", "ellipsis");
   });
 });

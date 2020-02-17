@@ -20,7 +20,7 @@ header {
 	background-color: #ff545f;
 }
 
-#api_status {
+header div {
 	height: 40px;
 	width: 40px;
 	border-radius: 50%;

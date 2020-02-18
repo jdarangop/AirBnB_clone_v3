@@ -57,7 +57,7 @@ $(function () {
     $("div.locations h4").css("height", "length");
     $("div.locations h4").css("height", "17px");
     $("div.locations h4").css("width", "length");
-    $("div.locations h4").css("width", "260px");
+    $("div.locations h4").css("width", "130px");
     $("div.locations h4").css("white-space", "nowrap");
     $("div.locations h4").css("overflow", "hidden");
     $("div.locations h4").css("text-overflow", "ellipsis");
@@ -87,10 +87,11 @@ $(function () {
     $("div.locations h4").css("height", "length");
     $("div.locations h4").css("height", "17px");
     $("div.locations h4").css("width", "length");
-    $("div.locations h4").css("width", "260px");
+    $("div.locations h4").css("width", "130px");
     $("div.locations h4").css("white-space", "nowrap");
     $("div.locations h4").css("overflow", "hidden");
     $("div.locations h4").css("text-overflow", "ellipsis");
+
   });
 
   //Filtering places by states, cities and amenities selected
